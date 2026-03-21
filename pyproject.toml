@@ -1,6 +1,6 @@
 [project]
 name = "speciesfyi"
-version = "0.1.0"
+version = "0.1.1"
 description = "Species taxonomy and biodiversity API client — speciesfyi.com"
 readme = "README.md"
 license = "MIT"
@@ -40,6 +40,7 @@ all = ["speciesfyi[api,cli,mcp]"]
 
 [project.scripts]
 speciesfyi = "speciesfyi.cli:app"
+speciesfyi-mcp = "speciesfyi.mcp_server:main"
 
 [project.entry-points."mcp.servers"]
 speciesfyi = "speciesfyi.mcp_server:mcp"

@@ -1,6 +1,6 @@
 [project]
 name = "speciesfyi"
-version = "0.1.1"
+version = "0.1.2"
 description = "Species taxonomy and biodiversity API client — speciesfyi.com"
 readme = "README.md"
 license = "MIT"

@@ -337,6 +337,15 @@ Embed [SpeciesFYI](https://speciesfyi.com) widgets on any website with [speciesf
 
 Zero dependencies · Shadow DOM · 4 themes (light/dark/sepia/auto) · [Widget docs](https://widget.speciesfyi.com)
 
+## Recently Updated (v0.1.2)
+
+Latest content state on [https://speciesfyi.com](https://speciesfyi.com):
+- [Homepage](https://speciesfyi.com)
+- [Developer documentation](https://speciesfyi.com/developers/)
+- [Sitemap (full content index)](https://speciesfyi.com/sitemap.xml)
+
+Version bumped 2026-05-27 as part of the FYIPedia [SEO recovery refresh](https://github.com/dobestan).
+
 ## License
 
 MIT

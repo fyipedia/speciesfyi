@@ -1,0 +1,41 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.fyipedia/speciesfyi",
+  "description": "Species taxonomy and biodiversity API client — speciesfyi.com",
+  "version": "0.1.1",
+  "repository": {
+    "url": "https://github.com/fyipedia/speciesfyi",
+    "source": "github"
+  },
+  "packages": [
+    {
+      "registryType": "pypi",
+      "registryBaseUrl": "https://pypi.org",
+      "identifier": "speciesfyi",
+      "version": "0.1.1",
+      "runtimeHint": "uvx",
+      "transport": {
+        "type": "stdio"
+      },
+      "runtimeArguments": [
+        {
+          "type": "named",
+          "name": "--from",
+          "value": "speciesfyi[mcp]"
+        },
+        {
+          "type": "positional",
+          "value": "python"
+        },
+        {
+          "type": "positional",
+          "value": "-m"
+        },
+        {
+          "type": "positional",
+          "value": "speciesfyi.mcp_server"
+        }
+      ]
+    }
+  ]
+}
